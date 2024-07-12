@@ -1,0 +1,6 @@
+selenium==4.1.0
+google-cloud-storage==2.1.0
+google-cloud-secret-manager==2.7.2
+google-auth==2.3.3
+python-dotenv==0.19.2
+
