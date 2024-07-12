@@ -10,7 +10,7 @@ steps:
       - 'pa-scrapping-job'
       - '--image=gcr.io/$PROJECT_ID/scrapping_img'
       - '--platform=managed'
-      - '--region=europe-west9'
+      - '--region=europe-west1'
       - '--allow-unauthenticated'
       - '--update-env-vars=GCP_PROJECT=$PROJECT_ID'
 
