@@ -28,7 +28,6 @@ WORKDIR /app
 
 # Copier les fichiers nécessaires dans l'image
 COPY . /app
-COPY pa-ingestion-1808b0bb82af.json /tmp/pa-ingestion-1808b0bb82af.json
 # Installer les dépendances Python
 RUN pip install --no-cache-dir -r requirements.txt
 
