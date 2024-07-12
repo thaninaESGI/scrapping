@@ -1,5 +1,5 @@
 steps:
-  # Étape 1 : Construire l'image Docker
+  # Étape 1 :  Construire l'image Docker
   - name: 'gcr.io/cloud-builders/docker'
     args: ['build', '-t', 'gcr.io/$PROJECT_ID/scrapping_img', '.']
   
