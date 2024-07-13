@@ -16,9 +16,8 @@ steps:
       - 'pa-scrapping-job'
       - '--image=gcr.io/$PROJECT_ID/img1'
       - '--region=europe-west9'
-      - '--allow-unauthenticated'
       - '--update-env-vars=GCP_PROJECT=$PROJECT_ID'
-      - '--service-account=969372868884@cloudbuild.gserviceaccount.com'
+      - '--service-account=id-69372868884-cloudbuild-gser@pa-ingestion.iam.gserviceaccount.com'
 
 # Paramètres généraux du Cloud Build
 timeout: '1600s'
