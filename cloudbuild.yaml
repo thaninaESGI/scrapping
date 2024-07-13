@@ -16,8 +16,6 @@ steps:
       - 'pa-scrapping-job'
       - '--image=gcr.io/$PROJECT_ID/img1'
       - '--region=europe-west9'
-      - '--platform=managed'
-      - '--execute-now'
       - '--allow-unauthenticated'
       - '--update-env-vars=GCP_PROJECT=$PROJECT_ID'
       - '--service-account=969372868884@cloudbuild.gserviceaccount.com'
